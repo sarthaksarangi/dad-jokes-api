@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+/* font-family: 'Inter', sans-serif; */
+
+font-family: 'Poppins', sans-serif; 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7), 
+    rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+   backdrop-filter: blur(2rem);
+
+   
+    
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.8), 
+    rgba(255,255,255,0.3));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    z-index: 1;  
+    border-radius: 50%;
+}
+.circle1{
+    bottom: 3%;
+    left: 5%;
+}
+.circle2{
+    top: 3%;
+    right: 5%;
+}
+h1{
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+}
+.bdr{
+    width:60%;
+    border: 15px solid rgba(255,255,255,0.8);
+    border-radius: 2rem;
+    max-width: 80vh;
+    margin: auto;
+}
+
+.button-35 {
+    display: block;
+    
+    margin: auto;
+    margin-bottom: 2rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin-top: 1.5rem;
+    
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.5s;
+    margin-top: 4rem;
+  }
+  
+  .button-35:hover {
+    
+    transform: scale(1.1);
+  }
+  .output{
+    
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.6), 
+    rgba(255,255,255,0.3));
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+    width: 83%;
+    height: 40vh;
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+  }
+  @media screen and (max-width: 600px) {
+    .output {
+      font-size: 3vw;
+    }
+  }
